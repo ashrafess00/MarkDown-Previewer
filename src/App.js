@@ -82,7 +82,10 @@ And here. | Okay. | I think we get it.
           Ashraf Essaoudi{" "}
         </a>
         , check the project in{" "}
-        <a href="" className="ash">
+        <a
+          href="https://github.com/ashrafess00/MarkDown-Previewer"
+          className="ash"
+        >
           github
         </a>
       </div>
