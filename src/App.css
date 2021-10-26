@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital@1&display=swap");
+
+:root {
+  --main-color: #469393;
+  --radius: 10px;
+  --white: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.editorContainer {
+  width: 40%;
+  border: black solid 1px;
+  border: 1px black solid;
+  margin-bottom: 15rem;
+  margin: 1rem auto;
+}
+.previewContainer {
+  width: 60%;
+  border: black solid 1px;
+  margin: auto;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.previewContainer * {
+  margin-bottom: 1.5rem;
+}
+
+.editor {
+  padding: 2rem;
+}
+
+.textAreaTop {
+  width: 100%;
+  background-color: var(--main-color);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+textarea {
+  width: 100%;
+  border: none;
+}
+textarea:focus {
+  outline: none;
+}
+.icon {
+  font-size: 1rem;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 80%;
+}
+td {
+  padding: 1rem;
+  border: rgb(255, 0, 0) solid 2px;
+}
+th {
+  border: rgb(255, 0, 0) solid 2px;
+}
+
+ul:first-child {
+  margin-left: 2rem;
+}
+ol:first-child {
+  margin-left: 2rem;
+}
+
+blockquote p {
+  display: inline-block;
+}
+blockquote p::before {
+  display: inline-block;
+  content: "";
+  width: 12px;
+  background-color: turquoise;
+  height: 100%;
+}
+.pree {
+  color: black;
+}
+
+.desc {
+  width: 100%;
+  background-color: var(--main-color);
+  font-size: 1rem;
+  text-align: center;
+}
+.ash {
+  color: white;
+  font-size: 1.2rem;
+}
